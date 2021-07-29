@@ -1,0 +1,47 @@
+name: apptest
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  provider: ^5.0.0
+  flutter_svg: ^0.22.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/svg/
+    - assets/images/png/
+
+  fonts:
+    - family: IBMPlexSans
+      fonts:
+        - asset: assets/fonts/IBMPlexSans-ExtraLight.ttf
+        - asset: assets/fonts/IBMPlexSans-ExtraLightItalic.ttf
+        - asset: assets/fonts/IBMPlexSans-Bold.ttf
+        - asset: assets/fonts/IBMPlexSans-BoldItalic.ttf
+        - asset: assets/fonts/IBMPlexSans-Thin.ttf
+        - asset: assets/fonts/IBMPlexSans-ThinItalic.ttf
+        - asset: assets/fonts/IBMPlexSans-Italic.ttf
+        - asset: assets/fonts/IBMPlexSans-Light.ttf
+        - asset: assets/fonts/IBMPlexSans-LightItalic.ttf
+        - asset: assets/fonts/IBMPlexSans-Medium.ttf
+        - asset: assets/fonts/IBMPlexSans-MediumItalic.ttf
+        - asset: assets/fonts/IBMPlexSans-Regular.ttf
+        - asset: assets/fonts/IBMPlexSans-SemiBold.ttf
+        - asset: assets/fonts/IBMPlexSans-SemiBoldItalic.ttf
